@@ -1,7 +1,8 @@
-# COMP271
-Programming II - 18FA-COMP-271-001RL
+# COMP271 - Programming II
+## Professor - John Mensing
+## Term - 18FA-COMP-271-001RL
 
-## Test 1 - Preparation
+### Test 1 - Preparation
 
 #### What is method overloading and what is an advantage to using method overloading?
 
