@@ -107,7 +107,7 @@ public void doSomething(Number param) {
 	public String doThis(int number) {      
   		//specfiy what must happen      
  			} 
-}
+	}
 ```
 
 Superclass defines common behavior for related subclasses. An interface can be used to define common behavior for cases (including unrelated classes).
@@ -143,20 +143,20 @@ When declaring class variables as public static final, then variable names (cons
 
 #### Other
 
-16. There's an abstract method - add_toppings
+- 16. There's an abstract method - add_toppings
 
-17. Small pizza();
-    Pizza(String);
+- 17. Small pizza();
+      Pizza(String);
 
-19. pizzas[0] = sm_pizza;
-    pizzas[0].get_order();
+- 19. pizzas[0] = sm_pizza;
+      pizzas[0].get_order();
 
-20. Implements Comparable<Pizza>;
+- 20. Implements Comparable<Pizza>;
 
-21. There's only one static variable there. static store
-    "store is static, other variables could change, ex: size, time_ordered, cost, toppings..""
+- 21. There's only one static variable there. static store
+      "store is static, other variables could change, ex: size, time_ordered, cost, toppings..""
 
-22. class Large_Pizza extends Pizza {
+- 22. class Large_Pizza extends Pizza {
     public Large_Pizza() {
       Super("Large");
       cost=10;
