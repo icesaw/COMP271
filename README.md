@@ -56,6 +56,14 @@
 ```
 
 #### What is the difference between the keyword static and final? Provide an example of each.
+
+
+
+
 #### Can a subclass or child typically do more or less (in terms of methods) than its parent or superclass?
+
 #### Why would you need to use the instanceof operator?
+
+- The instanceof operator is used to test whether the object is an instance of the specified type (class or subclass or interface). The instanceof in java is also known as type comparison operator because it compares the instance with type. It returns either true or false.
+
 #### Be able to examine code examples which uses the keywords extends, abstract, final, implements and static and be able to answer questions about their use.
