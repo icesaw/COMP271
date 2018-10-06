@@ -19,15 +19,25 @@
 
 #### What are some differences between constructors and methods?
 
-- The important difference between constructors and methods are: Constructors create and initialize objects that don't exist yet, while methods perform operations on objects that already exist. Constructors can't be called directly; they are called implicitly when the new keyword creates an object.
+- Constructors create and initialize objects that don't exist yet, while methods perform operations on objects that already exist.
+- Constructors can't be called directly; they are called implicitly when the new keyword creates an object.
+- Constructors are used to initialize the state of object using the new operator.
+
+	     |      Name      | Return Type | Invoke |
+-------------|----------------|-------------|--------|
+Methods	     | Any legal name |     Any     |  Call  |
+-------------|----------------|-------------|--------|
+Constructors |    Same name   |  none, not  |   new  |
+             |     as class   |  even void  |        |	
+-------------|----------------|-------------|--------|
+
+
+
 
 #### What are 2 conditions for defining a constructor?
 
-
-
-
-
-
+- A constructor must have as same name as class itself.
+- A constructor does not have a return type – not even void
 
 #### Give an example of a Wrapper class
 
@@ -76,11 +86,12 @@ public void doSomething(Number param) {
 			System.out.println("param is an Integer");
 				}   
  	if (param instanceof Comparable) {    
- 			//subclasses of Number like Double etc. implement Comparable  
-   			//other subclasses might not -> you could pass Number instances that don't implement that interface    
+ 		//subclasses of Number like Double etc. implement Comparable  
+   		//other subclasses might not -> you could pass Number instances that don't implement that interface    
  			System.out.println("param is comparable");   
  		} 
 	}
 ```
 
 #### Be able to examine code examples which uses the keywords extends, abstract, final, implements and static and be able to answer questions about their use.
+
