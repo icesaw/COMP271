@@ -13,5 +13,5 @@ covered include design features from objects, classes and objects as
 encapsulation tools, inheritance and hierarchies among classes, polymorphism,
 exception handling and GUI/event driven programming. Assignments give students
 hands-on experience to design, write, test, debug and edit their program code
-using an integrated development environment.(Prerequisites: COMP-126 and
+using an integrated development environment. (Prerequisites: COMP-126 and
 COMP-171)_
