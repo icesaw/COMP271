@@ -80,8 +80,8 @@ public void doSomething(Number param) {
 			System.out.println("param is an Integer");
 				}   
  	if (param instanceof Comparable) {    
- 		//subclasses of Number like Double etc. implement Comparable  
-   		//other subclasses might not -> you could pass Number instances that don't implement that interface    
+ 	//subclasses of Number like Double etc. implement Comparable  
+   	//other subclasses might not -> you could pass Number instances that don't implement that interface    
  			System.out.println("param is comparable");   
  		} 
 	}
