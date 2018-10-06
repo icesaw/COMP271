@@ -14,7 +14,7 @@ Programming II - 18FA-COMP-271-001RL
 
 #### What is method overriding?
 
-
+- Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes. When a method in a subclass has the same name, same parameters or signature and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to override the method in the super-class.
 
 #### What are some differences between constructors and methods?
 
@@ -30,13 +30,13 @@ Programming II - 18FA-COMP-271-001RL
 
 #### Give an example of a Wrapper class
 
-- Converting a primitive type to Wrapper object
+- Converting a Primitive type to Wrapper object
 
   ```java public class JavaExample {  
       public static void main(String args[]) {  
 		//Converting int primitive into Integer object  
-          int num=100;  
-	          Integer obj=Integer.valueOf(num);  
+          	int num=100;  
+	        Integer obj=Integer.valueOf(num);  
           System.out.println(num + " " + obj);
           }
        }
@@ -46,12 +46,12 @@ Programming II - 18FA-COMP-271-001RL
 ```java public class JavaExample{  
    	public static void main(String args[]){  
 		//Creating Wrapper class object 
-	Integer obj = new Integer(100);  
+		Integer obj = new Integer(100);  
 		//Converting the wrapper object to primitive
-	int num = obj.intValue();
-	System.out.println(num + " " + obj);  
-   }
-}
+		int num = obj.intValue();
+	   System.out.println(num + " " + obj);  
+   	   }
+	}
 ```
 
 #### What is the difference between the keyword static and final? Provide an example of each.
