@@ -110,25 +110,21 @@ public void doSomething(Number param) {
 	}
 ```
 
-Superclass defines common behavior for related subclasses. An interface can be used to define common behavior for cases (including unrelated classes).
+**Superclass** defines common behavior for related subclasses. An interface can be used to define common behavior for cases (including unrelated classes).
 
-Abstract Class: Cannot be used to create objects. An abstract class can contain abstract methods, which are implemented in concrete subclasses. -- Abstract classes are like regular classes, but you cannot create instances of abstract classes using the new operator. An abstract method if defined without implementation. Its implementation is provided by the subclasses.
+**Abstract Class:** Cannot be used to create objects. An abstract class can contain abstract methods, which are implemented in concrete subclasses. -- Abstract classes are like regular classes, but you cannot create instances of abstract classes using the new operator. An abstract method if defined without implementation. Its implementation is provided by the subclasses.
 
 An abstract method cannot be contained in a nonabstract class. If a subclass of an abstract superclass does not implement all the abstract methods, the subclass must be defined abstract. In other words, in a nonabstract subclass extended from an abstract class, all the abstract methods must be implemented, even if they are not used in the subclass.
 
-
-Instance Variables
-Instance variables are declared in a class, but outside a method, constructor or any block.
+**Instance Variables** Instance variables are declared in a class, but outside a method, constructor or any block.
 When a space is allocated for an object in the heap(pilha), a slot for each instance variable value is created.
-Instance variables also:
-Created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed.
-Hold values that must be referenced by more than one method, constructor or block, or essential parts of an object's state that must be present throughout the class.
-Access modifiers can be given for instance variables.
+**Instance variables also:** Created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed. 
+**Hold values that must be referenced by more than one method,** constructor or block, or essential parts of an object's state that must be present throughout the class. Access modifiers can be given for instance variables.
 Visible for all methods, constructors and block in the class. Normally, it is recommended to make these variables private (access level). However, visibility for subclasses can be given for these variables with the use of access modifiers.
-Have default values. For numbers, the default value is 0, for Booleans it is false, and for object references it is null. Values can be assigned during the declaration or within the constructor.
-Can be accessed directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. ObjectReference.VariableName.
+**Have default values** For numbers, the default value is 0, for Booleans it is false, and for object references it is null. Values can be assigned during the declaration or within the constructor.
+Can be **accessed** directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. **ObjectReference.VariableName**
 
-Class/Static Variables
+**Class/Static Variables**
 Class variables also known as static variables are:
 Declared with the static keyword in a class, but outside a method, constructor or a block.
 There would only be one copy of each class variable per class, regardless of how many objects are created from it.
@@ -137,7 +133,7 @@ Stored in the static memory. It is rare to use static variables other than decla
 Created when the program starts and destroyed when the program stops.
 Visibility is similar to instance variables. However, most static variables are declared public since they must be available for users of the class.
 Default values are same as instance variables. For numbers, the default value is 0; for Booleans, it is false; and for object references, it is null. Values can be assigned during the declaration or within the constructor. Additionally, values can be assigned in special static initializer blocks.
-Can be accessed by calling with the class name ClassName.VariableName.
+Can be **accessed** by calling with the class name **ClassName.VariableName**
 When declaring class variables as public static final, then variable names (constants) are all in upper case. If the static variables are not public and final, the naming syntax is the same as instance and local variables.
 
 
@@ -174,4 +170,3 @@ When declaring class variables as public static final, then variable names (cons
     cost += .75;
     }
 ```
-
