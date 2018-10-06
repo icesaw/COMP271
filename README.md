@@ -62,8 +62,25 @@
 
 #### Can a subclass or child typically do more or less (in terms of methods) than its parent or superclass?
 
+- Yes, because child has everything the parent has. A subclass inherits accessible data fields and methods from its superclass and may also add new data fields and methods.
+
 #### Why would you need to use the instanceof operator?
 
-- The instanceof operator is used to test whether the object is an instance of the specified type (class or subclass or interface). The instanceof in java is also known as type comparison operator because it compares the instance with type. It returns either true or false.
+- It’s used to compare, tests types of objects. It’s to check if an object is an instance of a specific class.
+```java
+public void doSomething(Number param) {   
+ 	if( param instanceof Double) {     
+		System.out.println("param is a Double");   
+		}   
+ 		else if (param instanceof Integer) {     
+			System.out.println("param is an Integer");
+				}   
+ 	if (param instanceof Comparable) {    
+ 			//subclasses of Number like Double etc. implement Comparable  
+   			//other subclasses might not -> you could pass Number instances that don't implement that interface    
+ 			System.out.println("param is comparable");   
+ 		} 
+	}
+```
 
 #### Be able to examine code examples which uses the keywords extends, abstract, final, implements and static and be able to answer questions about their use.
