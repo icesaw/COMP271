@@ -24,12 +24,11 @@
 - Constructors are used to initialize the state of object using the new operator.
 
 |             |      Name      | Return Type | Invoke |
-|-------------|----------------|-------------|--------|
+|---|---|---|---|
 | Methods     | Any legal name |     Any     |  Call  |
-|-------------|----------------|-------------|--------|
-|Constructors |    Same name   |  none, not  |   new  |
-|             |     as class   |  even void  |        |	
-|-------------|----------------|-------------|--------|
+|---|---|---|---|
+|Constructors | Same name as class | none, not even void | new  |
+|---|---|---|---|
 
 
 
