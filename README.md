@@ -25,8 +25,8 @@
 
 |             |      Name      | Return Type | Invoke |
 |---|---|---|---|
-| Methods     | Any legal name |     Any     |  Call  |
-|Constructors | Same name as class | none, not even void | new  |
+| **Methods** | Any legal name |     Any     |  Call  |
+| **Constructors** | Same name as class | none, not even void | new  |
 
 
 
