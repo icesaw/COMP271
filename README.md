@@ -92,20 +92,23 @@ public void doSomething(Number param) {
 - Extends vs Implements 
 > Extends is for extending a class.
 > Implements is for implementing an interface.
-> The difference between an interface and a regular class is that in an interface you can not implement any of the declared methods. > Only the class that "implements" the interface can implement the methods.
+> The difference between an interface and a regular class is that in an interface you can not implement any of the declared methods. Only the class that "implements" the interface can implement the methods.
 
-public interface ExampleInterface{     
-public void do();     
-public String doThis(int number);  
-}  
-public class sub implements ExampleInterface{    
-public void do(){       
- //specify what must happen      
- }      
-public String doThis(int number){      
-  //specfiy what must happen      
- } 
+
+```java
+	public interface ExampleInterface {     
+		public void do();     
+		public String doThis(int number);  
+			}  
+	public class sub implements ExampleInterface {    
+			public void do() {       
+ 		//specify what must happen      
+ 			}      
+	public String doThis(int number) {      
+  		//specfiy what must happen      
+ 			} 
 }
+```
 
 Superclass defines common behavior for related subclasses. An interface can be used to define common behavior for cases (including unrelated classes).
 
