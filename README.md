@@ -28,9 +28,6 @@
 | **Methods** | Any legal name |     Any     |  Call  |
 | **Constructors** | Same name as class | none, not even void | new  |
 
-
-
-
 #### What are 2 conditions for defining a constructor?
 
 - A constructor must have as same name as class itself.
