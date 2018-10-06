@@ -28,16 +28,32 @@ Programming II - 18FA-COMP-271-001RL
 
 
 
-#### Give an example of a Wrapper class.
+#### Give an example of a Wrapper class
+
 - Converting a primitive type to Wrapper object
-  ```public class JavaExample {  
-      public static void main(String args[]){  
-	     //Converting int primitive into Integer object  
+
+  ```java public class JavaExample {  
+      public static void main(String args[]) {  
+		//Converting int primitive into Integer object  
           int num=100;  
 	          Integer obj=Integer.valueOf(num);  
-          System.out.println(num+ " "+ obj);
+          System.out.println(num + " " + obj);
           }
        }
+
+- Converting Wrapper class object to Primitive
+
+```java public class JavaExample{  
+   	public static void main(String args[]){  
+		//Creating Wrapper class object 
+	Integer obj = new Integer(100);  
+		//Converting the wrapper object to primitive
+	int num = obj.intValue();
+	System.out.println(num + " " + obj);  
+   }
+}
+```
+
 #### What is the difference between the keyword static and final? Provide an example of each.
 #### Can a subclass or child typically do more or less (in terms of methods) than its parent or superclass?
 #### Why would you need to use the instanceof operator?
