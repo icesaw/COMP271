@@ -23,13 +23,13 @@
 - Constructors can't be called directly; they are called implicitly when the new keyword creates an object.
 - Constructors are used to initialize the state of object using the new operator.
 
-	     |      Name      | Return Type | Invoke |
--------------|----------------|-------------|--------|
-Methods	     | Any legal name |     Any     |  Call  |
--------------|----------------|-------------|--------|
-Constructors |    Same name   |  none, not  |   new  |
-             |     as class   |  even void  |        |	
--------------|----------------|-------------|--------|
+|             |      Name      | Return Type | Invoke |
+|-------------|----------------|-------------|--------|
+| Methods     | Any legal name |     Any     |  Call  |
+|-------------|----------------|-------------|--------|
+|Constructors |    Same name   |  none, not  |   new  |
+|             |     as class   |  even void  |        |	
+|-------------|----------------|-------------|--------|
 
 
 
