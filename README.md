@@ -118,10 +118,15 @@ An abstract method cannot be contained in a nonabstract class. If a subclass of 
 
 **Instance Variables** Instance variables are declared in a class, but outside a method, constructor or any block.
 When a space is allocated for an object in the heap(pilha), a slot for each instance variable value is created.
+
 **Instance variables also:** Created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed. 
+
 **Hold values that must be referenced by more than one method,** constructor or block, or essential parts of an object's state that must be present throughout the class. Access modifiers can be given for instance variables.
+
 Visible for all methods, constructors and block in the class. Normally, it is recommended to make these variables private (access level). However, visibility for subclasses can be given for these variables with the use of access modifiers.
+
 **Have default values** For numbers, the default value is 0, for Booleans it is false, and for object references it is null. Values can be assigned during the declaration or within the constructor.
+
 Can be **accessed** directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. **ObjectReference.VariableName**
 
 **Class/Static Variables**
