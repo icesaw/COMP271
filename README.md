@@ -146,11 +146,13 @@ When declaring class variables as public static final, then variable names (cons
 - 16 
 > There's an abstract method - add_toppings
 
-- 17 ```java 
+- 17 
+```java 
  Small pizza();
  Pizza(String);
 ```
-- 19 ```java
+- 19
+```java
  pizzas[0] = sm_pizza;
  pizzas[0].get_order();
 ```
