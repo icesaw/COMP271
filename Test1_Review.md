@@ -59,9 +59,10 @@ Wrapper class – processes primitive data type value as objects.
 
 #### What is the difference between the keyword static and final? Provide an example of each.
 
-Static applies to the whole class
-Final is constant, no sets, no changes.
-Ex: apply delivery charge to all pizzas, we must define delivery_charge as static.
+- Static applies to the whole class
+- Final is constant, no sets, no changes.
+
+>Ex: apply delivery charge to all pizzas, we must define delivery_charge as static.
 
 #### Can a subclass or child typically do more or less (in terms of methods) than its parent or superclass?
 
