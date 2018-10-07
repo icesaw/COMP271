@@ -31,6 +31,8 @@
 
 #### Give an example of a Wrapper class
 
+Wrapper class – processes primitive data type value as objects.
+
 - Converting a Primitive type to Wrapper object
 
   ```java public class JavaExample {  
