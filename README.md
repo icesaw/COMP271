@@ -1,6 +1,6 @@
 # COMP271 - Programming II
 ## Professor - John Mensing
-    http://www.brookdalecc.edu/fac/cos/jmensing
+    https://www.brookdalecc.edu/contact/john-mensing/
 #### 18FA-COMP-271-001RL
 
 __Description:__
