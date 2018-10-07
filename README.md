@@ -13,3 +13,12 @@ exception handling and GUI/event driven programming. Assignments give students
 hands-on experience to design, write, test, debug and edit their program code
 using an integrated development environment. (Prerequisites: COMP-126 and
 COMP-171)_
+
+__Book__
+
+    Intro to JAVA Prog: Comprehensive (w/Bind-In Access)
+    Author: Liang 
+    Edition: 11th 
+    ISBN: 9780134670942
+    Copyright Year: 2017
+    Publisher: Pearson
