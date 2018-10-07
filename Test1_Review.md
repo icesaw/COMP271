@@ -131,7 +131,7 @@ Visible for all methods, constructors and block in the class. Normally, it is re
 
 Can be **accessed** directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. **ObjectReference.VariableName**
 
- - Static Class/Variables
+ - **Static Class/Variables**
 
 Class variables also known as **static variables** are:
 - Declared with the static keyword in a class, but outside a method, constructor or a block.
