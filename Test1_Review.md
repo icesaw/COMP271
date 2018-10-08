@@ -1,8 +1,8 @@
 ## Test 1 - Review
-1,2
-Method Overloading - same name, but different parameters
+1,2 Method Overloading - same name, but different parameters
 Method Overriding - inheritance - same name, same parameters
-3
+
+
 
 
 #### What is method overloading and what is an advantage to using method overloading?
@@ -38,6 +38,8 @@ Method Overriding - inheritance - same name, same parameters
 
 Wrapper class – processes primitive data type value as objects.
 
+__Wrapper class can be Double, Integer__
+
 - Converting a Primitive type to Wrapper object
 
   ```java public class JavaExample {  
@@ -67,7 +69,7 @@ Wrapper class – processes primitive data type value as objects.
 - Static applies to the whole class
 - Final is constant, no sets, no changes.
 
->Ex: apply delivery charge to all pizzas, we must define delivery_charge as static.
+>Ex: apply delivery charge to all pizzas, we must define delivery_charge as static. (question? he said its final inclass need to check)
 
 #### Can a subclass or child typically do more or less (in terms of methods) than its parent or superclass?
 
@@ -114,7 +116,8 @@ public void doSomething(Number param) {
  			} 
 	}
 ```
-
+    super() - invokes parents constructor
+    
 - **Superclass** defines common behavior for related subclasses. An interface can be used to define common behavior for cases (including unrelated classes).
 
 - **Abstract Class:** Cannot be used to create objects. An abstract class can contain abstract methods, which are implemented in concrete subclasses.
