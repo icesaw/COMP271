@@ -1,20 +1,15 @@
 ## Test 1 - Review
-1,2 
-Method Overriding - inheritance - same name, same parameters
-
-
-
 
 #### What is method overloading and what is an advantage to using method overloading?
 
 - Method Overloading - same name, but different parameters. Enables you to define the methods with the same name as long as their signatures are different. 
 
-Ex: 
+> Ex: 
 ```java
 	sort(int[ ])
 	sort(double[ ])    
  ```   
-    Same sort name
+ > Same sort name
 
 #### What is method overriding?
 
@@ -36,8 +31,7 @@ Ex:
 
 Wrapper class – processes primitive data type value as objects.
 
-Ex: 
-> Wrapping int into Integer class. Double into the Double class; char into Character class
+> Ex: Wrapping int into Integer class. Double into the Double class; char into Character class
 
 #### What is the difference between the keyword static and final? Provide an example of each.
 
@@ -128,7 +122,7 @@ Can be **accessed** by calling with the class name **ClassName.VariableName**
 When declaring class variables as public static final, then variable names (constants) are all in upper case. If the static variables are not public and final, the naming syntax is the same as instance and local variables.
 
 
-#### Other
+#### Other (possible test answers)
 
 - 16 
 > There's an abstract method - add_toppings
@@ -162,17 +156,34 @@ When declaring class variables as public static final, then variable names (cons
     }
 ```
 
+#### In-class Test review
 
+__1. What makes the T_shirt class abstract? What must a class which inherits from T_shirt implement in order not to be abstract?__
+ It has abstract method - get_price()
 
-3. valid bc we made array T_shirt [ ] tee_shirts = new T_shirt[4]; so we can get price of it and in T_shirt[0] is small tshirt (is above) and we cant do T_shirt[1] bc its empty
+__2. Name all the constructors that get invoked with this statement.__ 
 
-4. bc we say to implement comparison of tshirt that why
+ ```java sm_T_shirt ashirt = new sm_T_shirt(); ```
+ 
+ sm_T_shirt()
+ T_shirt("small")
+ Object() - assumed - super()
+ 
+__3. Is this statement valid in the method main? Why or why not?__
+```java System.out.println(tee_shirts[0].get_price()); ```
 
-5. 
+> Valid because we made an array T_shirt [ ] tee_shirts = new T_shirt[4]; so we can get price of it and in T_shirt[0] is small tshirt (its above) and we cant do T_shirt[1] bc its empty
+
+__4. In the compareTo method, why is the parameter obj of type T_shirt?__
+
+> Because we say to implement comparison of tshirt thats why.
+
+__5. In the class T_shirt, which variables are class variables as opposed to instance variables?__
+
 class variables - static - country
 instance variables - lack of static - Tsize
 
-6. 
+6. A large tee shirt costs 15 dollars. Write the class for the large tee shirt which builds from the existing T_shirt class.
 ```java
 class large_T_shirt extends T_shirt {
 	public large_T_shirt () {
