@@ -1,4 +1,9 @@
 ## Test 1 - Review
+1,2
+Method Overloading - same name, but different parameters
+Method Overriding - inheritance - same name, same parameters
+3
+
 
 #### What is method overloading and what is an advantage to using method overloading?
 
