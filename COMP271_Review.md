@@ -11,8 +11,8 @@ Today:
 - Eclipse
 
 String course = “Comp 271”
-If(course == “Comp271”)  will give error, but will let compile it.
-If(course.equals(“Comp271”))  that’s the way to compare strings
+If(course == “Comp271”) > will give error, but will let compile it.
+If(course.equals(“Comp271”)) > that’s the way to compare strings
 
 Print the numbers from 1 to 10
 int x=0
