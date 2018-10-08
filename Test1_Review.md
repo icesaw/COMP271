@@ -183,7 +183,7 @@ __5. In the class T_shirt, which variables are class variables as opposed to ins
 class variables - static - country
 instance variables - lack of static - Tsize
 
-6. A large tee shirt costs 15 dollars. Write the class for the large tee shirt which builds from the existing T_shirt class.
+__6. A large tee shirt costs 15 dollars. Write the class for the large tee shirt which builds from the existing T_shirt class.__
 ```java
 class large_T_shirt extends T_shirt {
 	public large_T_shirt () {
