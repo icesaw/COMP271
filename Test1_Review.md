@@ -159,15 +159,17 @@ When declaring class variables as public static final, then variable names (cons
 ## In-class Test review
 
 __1. What makes the T_shirt class abstract? What must a class which inherits from T_shirt implement in order not to be abstract?__
- It has abstract method - get_price()
+> It has abstract method - get_price()
 
 __2. Name all the constructors that get invoked with this statement.__ 
 
  ```java sm_T_shirt ashirt = new sm_T_shirt(); ```
  
- sm_T_shirt()
- T_shirt("small")
- Object() - assumed - super()
+> sm_T_shirt()
+ 
+> T_shirt("small")
+ 
+> Object() - assumed - super()
  
 __3. Is this statement valid in the method main? Why or why not?__
 ```java System.out.println(tee_shirts[0].get_price()); ```
