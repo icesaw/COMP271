@@ -1,13 +1,14 @@
 ## Test 1 - Review
-1,2 Method Overloading - same name, but different parameters
+1,2 
 Method Overriding - inheritance - same name, same parameters
 
 
 
 
 #### What is method overloading and what is an advantage to using method overloading?
-
+Method Overloading - same name, but different parameters
 Enables you to define the methods with the same name as long as their signatures are different. 
+
 Ex: 
 ```java
 	sort(int[ ])
@@ -21,9 +22,7 @@ Ex:
 
 #### What are some differences between constructors and methods?
 
-- Constructors create and initialize objects that don't exist yet, while methods perform operations on objects that already exist.
-- Constructors can't be called directly; they are called implicitly when the new keyword creates an object.
-- Constructors are used to initialize the state of object using the new operator.
+Overriding means to provide a new implementation for a method in the subclass.
 
 |             |      Name      | Return Type | Invoke |
 |---|---|---|---|
@@ -39,38 +38,15 @@ Ex:
 
 Wrapper class – processes primitive data type value as objects.
 
-__Wrapper class can be Double, Integer__
-
-- Converting a Primitive type to Wrapper object
-
-  ```java public class JavaExample {  
-      public static void main(String args[]) {  
-		//Converting int primitive into Integer object  
-          	int num=100;  
-	        Integer obj=Integer.valueOf(num);  
-          System.out.println(num + " " + obj);
-          }
-       }
-
-- Converting Wrapper class object to Primitive
-
-```java public class JavaExample{  
-   	public static void main(String args[]){  
-		//Creating Wrapper class object 
-		Integer obj = new Integer(100);  
-		//Converting the wrapper object to primitive
-		int num = obj.intValue();
-	   System.out.println(num + " " + obj);  
-   	   }
-	}
-```
+Ex: 
+> Wrapping int into Integer class. Double into the Double class; char into Character class
 
 #### What is the difference between the keyword static and final? Provide an example of each.
 
 - Static applies to the whole class
 - Final is constant, no sets, no changes.
 
->Ex: apply delivery charge to all pizzas, we must define delivery_charge as static. (question? he said its final inclass need to check)
+> Ex: apply delivery charge to all pizzas, we must define delivery_charge as static. (question? he said its final inclass need to check)
 
 #### Can a subclass or child typically do more or less (in terms of methods) than its parent or superclass?
 
