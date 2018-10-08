@@ -187,3 +187,23 @@ When declaring class variables as public static final, then variable names (cons
     }
 ```
 
+
+
+3. valid bc we made array T_shirt [ ] tee_shirts = new T_shirt[4]; so we can get price of it and in T_shirt[0] is small tshirt (is above) and we cant do T_shirt[1] bc its empty
+
+4. bc we say to implement comparison of tshirt that why
+
+5. 
+class variables - static - country
+instance variables - lack of static - Tsize
+
+6. 
+class large_T_shirt extends T_shirt {
+public large_T_shirt () {
+super ("Large");
+}
+public double get_price() {
+return 15.0;
+}
+}
+
