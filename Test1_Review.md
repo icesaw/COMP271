@@ -6,8 +6,8 @@ Method Overriding - inheritance - same name, same parameters
 
 
 #### What is method overloading and what is an advantage to using method overloading?
-Method Overloading - same name, but different parameters
-Enables you to define the methods with the same name as long as their signatures are different. 
+
+- Method Overloading - same name, but different parameters. Enables you to define the methods with the same name as long as their signatures are different. 
 
 Ex: 
 ```java
@@ -18,11 +18,9 @@ Ex:
 
 #### What is method overriding?
 
-- Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes. When a method in a subclass has the same name, same parameters or signature and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to override the method in the super-class.
+- Method Overriding means to provide a new implementation for a method in the subclass
 
 #### What are some differences between constructors and methods?
-
-Overriding means to provide a new implementation for a method in the subclass.
 
 |             |      Name      | Return Type | Invoke |
 |---|---|---|---|
