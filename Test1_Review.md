@@ -180,8 +180,9 @@ __4. In the compareTo method, why is the parameter obj of type T_shirt?__
 
 __5. In the class T_shirt, which variables are class variables as opposed to instance variables?__
 
-class variables - static - country
-instance variables - lack of static - Tsize
+> class variables - static - country
+
+> instance variables - lack of static - Tsize
 
 __6. A large tee shirt costs 15 dollars. Write the class for the large tee shirt which builds from the existing T_shirt class.__
 ```java
