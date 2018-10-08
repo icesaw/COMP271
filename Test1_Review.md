@@ -7,12 +7,13 @@ Method Overriding - inheritance - same name, same parameters
 
 #### What is method overloading and what is an advantage to using method overloading?
 
-- Overloading in Java is the ability to create multiple methods of the same name, but with different parameters.
-- The main advantage of this is cleanliness of code.
-- Method overloading increases the readability of the program.
-- Overloaded methods give programmers the flexibility to call a similar method for different types of data.
-- Overloading is also used on constructors to create new objects given different amounts of data.
-- You must define a return type for each overloaded method. Methods can have different return types
+Enables you to define the methods with the same name as long as their signatures are different. 
+Ex: 
+```java
+	sort(int[ ])
+	sort(double[ ])    
+ ```   
+    Same sort name
 
 #### What is method overriding?
 
