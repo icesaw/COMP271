@@ -1,9 +1,11 @@
 ## Programming II – COMP 271 – John Mensing
 
 __9/12/2016 – Week 1__
+
 Website to check job/payment demand: http://www.bls.gov/ooh/
 Check programming language desired by market: http://www.tiobe.com/tiobe-index/
 Today:
+
 - Review COMP 171
 - Objects & Class
 - Eclipse
