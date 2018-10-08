@@ -26,8 +26,8 @@ Method Overriding - inheritance - same name, same parameters
 
 |             |      Name      | Return Type | Invoke |
 |---|---|---|---|
-| **Methods** | Any legal name |     Any     |  Call  |
-| **Constructors** | Same name as class | none, not even void | new  |
+| **Methods** | any legal name |     any     |  name of method  |
+| **Constructors** | same name as class | none, not even void | new  |
 
 #### What are 2 conditions for defining a constructor?
 
