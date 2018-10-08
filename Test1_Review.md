@@ -156,7 +156,7 @@ When declaring class variables as public static final, then variable names (cons
     }
 ```
 
-#### In-class Test review
+## In-class Test review
 
 __1. What makes the T_shirt class abstract? What must a class which inherits from T_shirt implement in order not to be abstract?__
  It has abstract method - get_price()
