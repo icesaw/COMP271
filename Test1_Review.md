@@ -198,12 +198,13 @@ class variables - static - country
 instance variables - lack of static - Tsize
 
 6. 
+```java
 class large_T_shirt extends T_shirt {
-public large_T_shirt () {
-super ("Large");
+	public large_T_shirt () {
+		super ("Large");
+		}
+	public double get_price() {
+	return 15.0;
+	}
 }
-public double get_price() {
-return 15.0;
-}
-}
-
+```
